@@ -1,0 +1,7 @@
+// Listing 2-6. Scripts in package.json
+
+"scripts": {
+  "c": "node_modules/.bin/elm make src/main.elm --output elm.js",
+  "cw": "node_modules/.bin/elm make src/main.elm --output elm.js --warn",
+  "r": "node_modules/.bin/elm repl"
+}

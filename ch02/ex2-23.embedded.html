@@ -1,0 +1,26 @@
+<!-- Listing 2-23. Embedded Elm Application -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+      if (type module === 'object')
+        {window.module = module; module = undefined;}
+    </script>
+    <script src="./elm.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <div>
+      Element before embedded Elm app
+    </div>
+    <div id="elm-main"></div>
+    <div>
+      Element after embedded Elm app
+    </div>
+    <script>
+      var elmDiv = document.getElementById('elm-main');
+      var elmApp = Elm.Hello.embed(elmDiv)
+    </script>
+  </body>
+</html>
