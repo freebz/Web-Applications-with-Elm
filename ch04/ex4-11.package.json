@@ -1,0 +1,4 @@
+// Listing 4-11.
+
+"watch": "chokidar '**/*.elm' -c 'elm make allbasics.elm
+    --output elm.js --warn' --initial"
