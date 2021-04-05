@@ -1,0 +1,8 @@
+/* Listing 5-27. */
+
+.container {
+    margin: 1em auto;
+    max-width: 800px;
+    height: 600px;
+    background-image: url('assets/bg.jpg');
+}

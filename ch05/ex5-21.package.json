@@ -1,0 +1,10 @@
+// Listing 5-21.
+
+...
+"source-directories": [
+        "src/model",
+        "src/update",
+        "src/view",
+        "src/init"
+    ]
+...
