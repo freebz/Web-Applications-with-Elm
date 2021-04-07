@@ -1,0 +1,14 @@
+<!-- Listing 6-31 -->
+
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>if (typeof module === 'object')
+      {window.module = module; module = undefined;}
+    </script>
+    <script src="./elm.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <script type="text/javascript">Elm.GamesFramework.fullscreen()</script>
+  </body>
+</html>

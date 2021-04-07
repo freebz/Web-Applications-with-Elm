@@ -1,0 +1,17 @@
+// Listing 6-27.
+
+{
+  "scripts": {
+    "start": "electron ./app",
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "devDependencies": {
+    "electron": "1.7.10"
+  },
+  "build": {
+    "productName": "Elm-Electron-Example",
+    "appId": "elm-electron-example"
+  }
+}
